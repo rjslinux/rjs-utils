@@ -4,9 +4,8 @@
 # service for Arch Linux
 # distributed under GPL License
 
-if [ -f /usr/lib/rjs-utils/core.sh -o -f ./core.sh ]; then
-#	source /usr/lib/rjs-utils/core.sh
-	source ./core.sh
+if [ -f /usr/lib/rjs-utils/core.sh ]; then
+	source /usr/lib/rjs-utils/core.sh
 else
 	echo
 	echo "ERROR: Unable to find /usr/lib/rjs-utils/core.sh"
